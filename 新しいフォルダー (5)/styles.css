@@ -1,0 +1,111 @@
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.project {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.project img {
+    width: 250px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.modal-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.modal-image {
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+}
+
+.modal-video {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+.swiper-container {
+    width: 100%;
+    height: 300px; /* 슬라이더 높이 조정 */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
